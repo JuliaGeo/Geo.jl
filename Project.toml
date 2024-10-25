@@ -1,0 +1,13 @@
+name = "JuliaGeo"
+uuid = "4f75c4cc-f146-4713-b1b1-9323cfc49fb1"
+authors = ["JuliaGeo contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
