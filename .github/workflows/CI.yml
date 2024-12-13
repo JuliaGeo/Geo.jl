@@ -73,6 +73,6 @@ jobs:
         shell: julia --project=docs --color=yes {0}
         run: |
           using Documenter: DocMeta, doctest
-          using JuliaGeo
-          DocMeta.setdocmeta!(JuliaGeo, :DocTestSetup, :(using JuliaGeo); recursive=true)
-          doctest(JuliaGeo)
+          using Geo
+          DocMeta.setdocmeta!(Geo, :DocTestSetup, :(using Geo); recursive=true)
+          doctest(Geo)

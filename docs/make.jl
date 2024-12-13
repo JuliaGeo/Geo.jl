@@ -1,14 +1,14 @@
-using JuliaGeo
+using Geo
 using Documenter
 
-DocMeta.setdocmeta!(JuliaGeo, :DocTestSetup, :(using JuliaGeo); recursive=true)
+DocMeta.setdocmeta!(Geo, :DocTestSetup, :(using Geo); recursive=true)
 
 makedocs(;
-    modules=[JuliaGeo],
-    authors="JuliaGeo contributors",
-    sitename="JuliaGeo.jl",
+    modules=[Geo],
+    authors="Geo contributors",
+    sitename="Geo.jl",
     format=Documenter.HTML(;
-        canonical="https://JuliaGeo.github.io/JuliaGeo.jl",
+        canonical="https://JuliaGeo.github.io/Geo.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -18,6 +18,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/JuliaGeo/JuliaGeo.jl",
+    repo="github.com/JuliaGeo/Geo.jl",
     devbranch="main",
 )
