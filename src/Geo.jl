@@ -1,4 +1,4 @@
-module JuliaGeo
+module Geo
 
 # Write your package code here.
 

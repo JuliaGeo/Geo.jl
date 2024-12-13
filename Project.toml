@@ -1,4 +1,4 @@
-name = "JuliaGeo"
+name = "Geo"
 uuid = "4f75c4cc-f146-4713-b1b1-9323cfc49fb1"
 authors = ["JuliaGeo contributors"]
 version = "0.0.1"
