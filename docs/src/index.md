@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = JuliaGeo
+CurrentModule = Geo
 ```
 
-# JuliaGeo
+# Geo
 
-Documentation for [JuliaGeo](https://github.com/JuliaGeo/JuliaGeo.jl).
+Documentation for [Geo](https://github.com/JuliaGeo/Geo.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [JuliaGeo]
+Modules = [Geo]
 ```

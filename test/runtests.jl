@@ -1,6 +1,6 @@
-using JuliaGeo
+using Geo
 using Test
 
-@testset "JuliaGeo.jl" begin
+@testset "Geo.jl" begin
     # Write your tests here.
 end
