@@ -7,6 +7,7 @@ using GeoFormatTypes
 using GeoInterface
 using GeoInterfaceMakie
 using GeoInterfaceRecipes
+using GeoParquet
 using GeometryOps
 using LibGEOS
 using NCDatasets
