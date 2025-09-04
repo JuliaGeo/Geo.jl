@@ -10,8 +10,6 @@ using Proj
 using Rasters
 
 import ArchGDAL
-import GeoInterfaceMakie
-import GeoInterfaceRecipes
 import GeoJSON
 import GeoParquet
 import NCDatasets
