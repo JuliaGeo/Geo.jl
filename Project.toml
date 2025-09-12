@@ -25,7 +25,7 @@ ZarrDatasets = "519a4cdf-1362-424a-9ea1-b1d782dbb24b"
 
 [compat]
 ArchGDAL = "0.10.6"
-CommonDataModel = "0.3.7"
+CommonDataModel = "0.3.7, 0.4"
 DimensionalData = "0.29.6"
 Extents = "0.1"
 GeoDataFrames = "0.3, 0.4"
