@@ -31,7 +31,8 @@ import LibGEOS
 using GeoDataFrames: read
 using GeoInterface: convert, extent # This extent knows how to calculate when not availablae
 
-# public
+
+# public declarations for juila 1.11 +
 # Mark all the names from `using Package` packages as public
 # This means accessing the docs wont have a warning.
 macro mark_public(modulename::Symbol)
@@ -39,15 +40,16 @@ macro mark_public(modulename::Symbol)
     namesvec = names(mod)
     return Expr(:public, esc.(namesvec)...) 
 end
-
-@mark_public DimensionalData
-@mark_public Extents
-@mark_public GeoDataFrames
-@mark_public GeoFormatTypes
-@mark_public GeoInterface
-@mark_public GeometryOps
-@mark_public Proj
-@mark_public Rasters
-@mark_public Wrappers # GeoInterface.Wrappers
+@static if VERSION >= v"1.11"
+    @mark_public DimensionalData
+    @mark_public Extents
+    @mark_public GeoDataFrames
+    @mark_public GeoFormatTypes
+    @mark_public GeoInterface
+    @mark_public GeometryOps
+    @mark_public Proj
+    @mark_public Rasters
+    @mark_public Wrappers # GeoInterface.Wrappers
+end
 
 end
