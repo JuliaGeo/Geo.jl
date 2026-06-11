@@ -29,10 +29,10 @@ import LibGEOS
 
 # Clarifications: where multiple names are available
 using GeoDataFrames: read
-using GeoInterface: convert, extent # This extent knows how to calculate when not availablae
+using GeoInterface: convert, extent # This extent knows how to calculate when not available
 
 
-# public declarations for juila 1.11 +
+# public declarations for julia 1.11 +
 # Mark all the names from `using Package` packages as public
 # This means accessing the docs wont have a warning.
 macro mark_public(modulename::Symbol)
